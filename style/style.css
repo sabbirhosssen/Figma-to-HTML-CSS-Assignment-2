@@ -83,3 +83,42 @@
   align-items: center;
   flex-shrink: 0;
 }
+.cv_download{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #a3abb2;
+  gap: 7%;
+}
+.cv_downloades{
+  color: #A3ABB2;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.5px;
+border-radius: 10px;
+border: 0px solid #3E64AA;
+background: #171F26;
+padding: 2% 4%;
+
+}
+
+
+
+
+
+
+.footer_last{
+  margin-top: 5%;
+  text-align: center;
+  color: #A3ABB2;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
