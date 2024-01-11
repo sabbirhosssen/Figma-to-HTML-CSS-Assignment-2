@@ -1,0 +1,85 @@
+* {
+  background-color: black;
+}
+.main_class {
+  margin: 100px 300px;
+}
+.toggle {
+  margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle img {
+  padding: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+.profile_section {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  width: 80%;
+  margin-bottom: 5%;
+}
+.profile_img {
+  padding: 6px 5px 1px 5px;
+  background-color: #ffe071;
+  border-radius: 740px;
+}
+.profile_img img {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+}
+.profile_img_text {
+  margin-top: 5%;
+}
+.profile_h3 {
+  color: #f1f2f4;
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 3%;
+}
+.profile_h5 {
+  color: #a3abb2;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5%;
+}
+.profile_img_link {
+  display: flex;
+  align-items: center;
+  justify-content: around;
+  gap: 7%;
+}
+.profile_link_img {
+  width: 36px;
+  color: #a3abb2;
+}
+.follower {
+  display: flex;
+  width: 80%;
+  padding: 20px 2px;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  color: #a3abb2;
+}
+.follows {
+  text-align: center;
+  display: flex;
+  width: 148px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
