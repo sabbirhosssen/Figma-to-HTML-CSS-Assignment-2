@@ -2,7 +2,12 @@
   background-color: black;
 }
 .main_class {
-  margin: 100px 300px;
+  margin: 100px 10%;
+  width: 80%;
+}
+.section_toggle{
+  margin: 0% 10%;
+  width: auto;
 }
 .toggle {
   margin-bottom: 4%;
@@ -15,11 +20,15 @@
   background-color: white;
   border-radius: 50%;
 }
+.section_profile{
+  margin: 0% 10%;
+  width: auto;
+}
 .profile_section {
   display: flex;
   justify-content: center;
   gap: 8%;
-  width: 80%;
+  /* width: 90%; */
   margin-bottom: 5%;
 }
 .profile_img {
@@ -67,12 +76,11 @@
 }
 .follower {
   display: flex;
-  width: 80%;
-  padding: 20px 2px;
   justify-content: center;
   align-items: center;
-  gap: 90px;
+  gap: 8%;
   color: #a3abb2;
+  margin-bottom: 4%;
 }
 .follows {
   text-align: center;
@@ -87,9 +95,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   color: #a3abb2;
-  gap: 7%;
+  gap: 4%;
+  margin-bottom: 4%;
+}
+
+.cv_downloads{
+ 
+  padding: 1.8%  6%;
+  border-radius: 10px;
+background-color: #FFE071;
+  color: #3D3D3D;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.531px;
+}
+
+.cv_downloads img{
+  color: #3D3D3D;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.531px;
+  background-color: #FFE071;
 }
 .cv_downloades{
   color: #A3ABB2;
@@ -103,17 +138,73 @@ letter-spacing: -0.5px;
 border-radius: 10px;
 border: 0px solid #3E64AA;
 background: #171F26;
-padding: 2% 4%;
+padding: 2% 10%;
+display: inline;
+
+}
+.section_portfolio{
+  margin: 0% 10%;
+  width: auto;
+}
+.portfolio_skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #171F26;
+  padding: 2% 1%;
+  color: #f1f2f4;
+  margin-bottom: 4%;
+}
+.porfolio{
+   padding: 2%;
+  border-radius: 10px;
+  border: 0px solid #3E64AA;
+  background-color: #0C151D;
+  color: #A3ABB2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  width: 45%;
+}
+.skills{
+  width: 45%;
+   padding: 2%;
+   background-color: #171F26;
+  color: #A3ABB2;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.5px;
+}
+.portfolio_gellary{
+  width: 100%;
+  height: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5% 5%;
+  /* grid-auto-rows: minmax(100px, auto); */
+
+}
+.portfolio_gellary_img img{
+  width: 100%;
+  height: auto;
 
 }
 
 
 
-
-
-
 .footer_last{
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: center;
   color: #A3ABB2;
 font-family: Poppins;
