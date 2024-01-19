@@ -192,24 +192,58 @@ letter-spacing: -0.5px;
   justify-content: center;
   grid-template-columns: repeat(2,1fr);
   gap: 5% 5%;
-  /* grid-auto-rows: minmax(100px, auto); */
-
 }
 .portfolio_gellary_img img{
   width: 100%;
   height: auto;
-
 }
-
-
-
 .footer_last{
   margin-top: 10%;
   text-align: center;
   color: #A3ABB2;
-font-family: Poppins;
-font-size: 22px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 767px) {
+  .section_portfolio{
+  margin: 0% 0%;
+  width: 100%;
+}
+  .portfolio_gellary{
+  width: 100%;
+  
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(1,1fr);
+  margin-bottom: 0%;
+  gap: 2% 0%;
+}
+.footer_last{
+  padding: 0% 5%;
+  font-size: 18px;
+  margin-top: 40%;
+}
+.follower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  color: #a3abb2;
+  margin-bottom: 7%;
+}
+.follows {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
 }
